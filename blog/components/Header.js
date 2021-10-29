@@ -12,7 +12,7 @@ export default function Header() {
 
     useEffect(() => {
         const getNavType = async () => {
-            const result= await axios('http://114.132.239.118:7001/default/getTypeInfo').then(
+            const result= await axios('http://localhost:7001/default/getTypeInfo').then(
                     (res) => {
                         console.log(res.data.data)
                         return res.data.data

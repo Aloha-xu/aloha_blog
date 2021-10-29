@@ -3,7 +3,7 @@ import { CustomerServiceOutlined, VerifiedOutlined, ReadOutlined } from '@ant-de
 const Advert = () => {
 
   const handleTo = ()=>{
-    window.open('http://114.132.239.118:38')
+    window.open('http://alohaxuuuu.fun/')
   }
 
   return (
@@ -20,6 +20,10 @@ const Advert = () => {
       <div className={`${adStyles.introduce_card} comm_box`}>
         <ReadOutlined style={{ fontSize: 2 + 'em' }} />
         <div className={adStyles.text}>React + egg.js 个人博客</div>
+      </div>
+      <div className={`${adStyles.introduce_card} comm_box`}>
+        <ReadOutlined style={{ fontSize: 2 + 'em' }} />
+        <div className={adStyles.text}>express 图床</div>
       </div>
     </div>
   )
