@@ -1,0 +1,22 @@
+.ad_div{
+    margin-top: .5rem;
+}
+.ad_div div{
+    border-radius: .3rem;
+    margin-bottom: .2rem;
+    overflow: hidden;
+}
+.introduce_card{
+    height: 3rem;
+}
+.introduce_card:hover{
+    background-color: rgb(238, 238, 238);
+    cursor: pointer;
+}
+.introduce_card .text{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 2.5rem;
+    height: 3rem;
+    margin-left: .5rem;
+}

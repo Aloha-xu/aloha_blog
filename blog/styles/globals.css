@@ -1,0 +1,51 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: #f6f6f6;
+    /*方便计算 10px=1rem
+    *font-size: 62.5%;
+    */
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* 高亮代码的样式 */
+pre{
+  display: block;
+  background-color:#f3f3f3;
+   padding: .5rem !important;
+   overflow-y: auto;
+   font-weight: 300;
+   font-family: Menlo, monospace;
+   border-radius: .3rem;
+}
+pre{
+  background-color: #283646 !important;
+}
+pre >code{
+  border:0px !important;
+  background-color: #283646 !important;
+  color:#FFF;
+}
+code {
+  display: inline-block ;
+  background-color:#f3f3f3;
+  border:1px solid #fdb9cc;
+  border-radius:3px;
+  font-size: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color:#4f4f4f;
+  margin: 0px 3px;
+
+}
